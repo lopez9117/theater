@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/reservaciones') }}">
-                        Teatro
+                        Theater
                     </a>
                 </div>
 
@@ -49,8 +49,8 @@
                             @if( Auth::user()->name =="admin" )
                                 <li><a href="/usuarios">Gestion de Usuarios</a></li>
                             @endif
-                            <li><a href="/reservaciones">Mis reservas</a></li>
-                            <li><a href="/reservaciones/create">Crear reservas</a></li>
+                            <li><a href="/reservaciones">My bookings</a></li>
+                            <li><a href="/reservaciones/create">Create booking</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
                                     {{ Auth::user()->name." ".Auth::user()->last_name }} <span class="caret"></span>
