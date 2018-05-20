@@ -1,0 +1,15 @@
+@media (min-width: 992px){
+    .col-md-1 {
+        width: 9%;
+    }
+}
+#butacas{
+    margin-left: 5%;
+}
+#telon{
+    width: 100%;
+    height: 200px;
+}
+html{
+    background: url('public/img/background.jpg') repeat
+}
